@@ -1,0 +1,49 @@
+#include "martini.ff/martini_v3.0.0.itp"
+#include "martini.ff/martini_v3.0.0_ions_v1.itp"
+#include "martini.ff/martini_v3.0.0_solvents_v1.itp"
+#include "martini.ff/martini_v3.0.0_phospholipids_v1.itp"
+#include "martini.ff/martini_v3.0_bacteria.itp"
+[ system ]
+; name
+INSANE! Membrane
+
+[ molecules ]
+; name  number
+OPMN             6
+OPMV             6
+MPPV             6
+MPPM             0
+PMPG            54
+PNPG             0
+OVPG             0
+PVPG             0
+POPG            20
+MOPG            67
+PMPE           135
+OVPE            47
+PNPE            67
+MVPE           155
+PVPE            40
+MOPE            47
+DPPE            20
+OPMN             6
+OPMV             6
+MPPV             6
+MPPM             0
+PMPG            54
+PNPG             0
+OVPG             0
+PVPG             0
+POPG            20
+MOPG            67
+PMPE           135
+OVPE            47
+PNPE            67
+MVPE           155
+PVPE            40
+MOPE            47
+DPPE            20
+W           21404
+NA+               314
+NA+            259
+CL-            219
